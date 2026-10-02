@@ -1,0 +1,92 @@
+$ find ~/codex-token-widget -maxdepth 5 -type f | sort
+/home/user/codex-token-widget/.git/HEAD
+/home/user/codex-token-widget/.git/config
+/home/user/codex-token-widget/.git/description
+/home/user/codex-token-widget/.git/hooks/applypatch-msg.sample
+/home/user/codex-token-widget/.git/hooks/commit-msg.sample
+/home/user/codex-token-widget/.git/hooks/fsmonitor-watchman.sample
+/home/user/codex-token-widget/.git/hooks/post-update.sample
+/home/user/codex-token-widget/.git/hooks/pre-applypatch.sample
+/home/user/codex-token-widget/.git/hooks/pre-commit.sample
+/home/user/codex-token-widget/.git/hooks/pre-merge-commit.sample
+/home/user/codex-token-widget/.git/hooks/pre-push.sample
+/home/user/codex-token-widget/.git/hooks/pre-rebase.sample
+/home/user/codex-token-widget/.git/hooks/pre-receive.sample
+/home/user/codex-token-widget/.git/hooks/prepare-commit-msg.sample
+/home/user/codex-token-widget/.git/hooks/push-to-checkout.sample
+/home/user/codex-token-widget/.git/hooks/sendemail-validate.sample
+/home/user/codex-token-widget/.git/hooks/update.sample
+/home/user/codex-token-widget/.git/index
+/home/user/codex-token-widget/.git/info/exclude
+/home/user/codex-token-widget/.git/objects/0f/dcb58416741e6a3914b4cfb3fac1a12adc5d04
+/home/user/codex-token-widget/.git/objects/12/04488e2c55a4776801ce81e1129d4d56c534f5
+/home/user/codex-token-widget/.git/objects/13/ce36dd6961a1a724f915df0f809f815a950d0c
+/home/user/codex-token-widget/.git/objects/24/6e03529dcf5629822e263623f8a5fc2b8ef64f
+/home/user/codex-token-widget/.git/objects/25/7b8756c54b50cfae01aff61b5b0a1034c8554b
+/home/user/codex-token-widget/.git/objects/26/8a41cf0c07372c03219dc8c213ef862a038c8d
+/home/user/codex-token-widget/.git/objects/2b/426c8d059067bf9380379d82cbcbed24d6086d
+/home/user/codex-token-widget/.git/objects/2b/ad5529cb3a5ec94c8a26c1a76a0f219dd25fc4
+/home/user/codex-token-widget/.git/objects/2f/341236ed6a8dff89be6c2f3473b77d9e5c000e
+/home/user/codex-token-widget/.git/objects/32/8a88d02f7a75247cd3867d673e558d955ad82e
+/home/user/codex-token-widget/.git/objects/3b/9212792d6d41e23fb9700f353ce22d4de96c37
+/home/user/codex-token-widget/.git/objects/3e/ce233a69b7f136bcd28cede2429b072d3b0b6e
+/home/user/codex-token-widget/.git/objects/43/132decaa4978f3eb2a7c9adbd1149639931238
+/home/user/codex-token-widget/.git/objects/5a/f33d3eff4736affc420ac81036bf0928d96ffe
+/home/user/codex-token-widget/.git/objects/64/1b04d6223e956b571ac7a289b00e433f2fe33a
+/home/user/codex-token-widget/.git/objects/85/153a001fdc07a9f1104c9aa4e90828b9af6b98
+/home/user/codex-token-widget/.git/objects/94/a6006fb770b6126b5f74bad95da1c3d5132d81
+/home/user/codex-token-widget/.git/objects/aa/413c82bc5c6e57973994aea0797476e7d7492a
+/home/user/codex-token-widget/.git/objects/ca/63c3f3a59197ac860bc08cfe181f419effb925
+/home/user/codex-token-widget/.git/objects/ce/40ceb71190e0252c3fd61921c5f40cb806969f
+/home/user/codex-token-widget/.git/objects/d1/ca661adb621e28d3f9838a706165dfd9694a50
+/home/user/codex-token-widget/.git/objects/e0/2d67aa822147283fa592fbe4d82a9952cfc61a
+/home/user/codex-token-widget/.git/objects/e6/9de29bb2d1d6434b8b29ae775ad8c2e48c5391
+/home/user/codex-token-widget/.git/objects/e8/af79848be3cb48ded6b649babbcfcc4c355381
+/home/user/codex-token-widget/.git/objects/ef/2f52e5af73a9f30db506d5b6f742db812f4f46
+/home/user/codex-token-widget/.gitignore
+/home/user/codex-token-widget/LICENSE
+/home/user/codex-token-widget/README.md
+/home/user/codex-token-widget/dist/Codex-Token-Monitor-1.0.0.plasmoid
+/home/user/codex-token-widget/docs/FINAL_COMMANDS.txt
+/home/user/codex-token-widget/docs/LICENSING.md
+/home/user/codex-token-widget/docs/LOCAL_REVIEW.md
+/home/user/codex-token-widget/docs/TESTING.md
+/home/user/codex-token-widget/install.sh
+/home/user/codex-token-widget/package/contents/code/backend.py
+/home/user/codex-token-widget/package/contents/code/codex_client.py
+/home/user/codex-token-widget/package/contents/code/configure.py
+/home/user/codex-token-widget/package/contents/code/storage.py
+/home/user/codex-token-widget/package/contents/config/config.qml
+/home/user/codex-token-widget/package/contents/ui/configAccount.qml
+/home/user/codex-token-widget/package/contents/ui/main.qml
+/home/user/codex-token-widget/package/metadata.json
+/home/user/codex-token-widget/screenshots/configuration.png
+/home/user/codex-token-widget/screenshots/first-run.png
+/home/user/codex-token-widget/tests/test_security.py
+/home/user/codex-token-widget/tools/build_package.py
+/home/user/codex-token-widget/tools/check_public_tree.py
+/home/user/codex-token-widget/uninstall.sh
+
+$ git status --short
+A  .gitignore
+A  LICENSE
+A  README.md
+A  docs/FINAL_COMMANDS.txt
+A  docs/LICENSING.md
+A  docs/LOCAL_REVIEW.md
+A  docs/TESTING.md
+A  install.sh
+A  package/contents/code/backend.py
+A  package/contents/code/codex_client.py
+A  package/contents/code/configure.py
+A  package/contents/code/storage.py
+A  package/contents/config/config.qml
+A  package/contents/ui/configAccount.qml
+A  package/contents/ui/main.qml
+A  package/metadata.json
+A  screenshots/configuration.png
+A  screenshots/first-run.png
+A  tests/test_security.py
+A  tools/build_package.py
+A  tools/check_public_tree.py
+A  uninstall.sh

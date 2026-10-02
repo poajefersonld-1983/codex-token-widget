@@ -1,0 +1,24 @@
+{
+    "KPackageStructure": "Plasma/Applet",
+    "KPlugin": {
+        "Id": "io.github.poajefersonld1983.codex-token-monitor",
+        "Name": "Codex Token Monitor",
+        "Description": "Uso e limites do Codex no painel ou desktop KDE Plasma",
+        "Icon": "view-statistics",
+        "Category": "System Information",
+        "Version": "1.0.0",
+        "License": "MIT",
+        "Authors": [
+            {
+                "Name": "Codex Token Monitor contributors"
+            }
+        ],
+        "Website": "https://github.com/poajefersonld-1983/codex-token-widget"
+    },
+    "X-Plasma-API-Minimum-Version": "6.0",
+    "X-Plasma-FormFactors": [
+        "horizontal",
+        "vertical",
+        "planar"
+    ]
+}
