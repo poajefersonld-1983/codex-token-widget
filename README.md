@@ -1,6 +1,22 @@
 # Codex Token Monitor
 
-Widget para KDE Plasma que exibe informações de uso/limites do Codex diretamente no painel ou desktop.
+Monitor de uso e limites do Codex para KDE Plasma (Linux/Fedora) e Windows 11.
+
+No Windows, mostra `5H 82% | 7D 97%` sobre a barra de tarefas, à esquerda dos ícones do sistema, com atualização a cada 15 segundos, fonte suavizada, três tamanhos e seleção de cores. O login pertence somente ao widget e usa o cofre de credenciais do Windows.
+
+## Windows 11
+
+Requisitos: Node.js e Codex CLI (`npm install -g @openai/codex`). Baixe o código em **Code → Download ZIP**, extraia e, na pasta `windows`, execute:
+
+```powershell
+powershell -NoProfile -ExecutionPolicy Bypass -File .\install.ps1
+```
+
+Clique no texto para abrir o painel e use **Entrar com ChatGPT**. Cada usuário precisa fazer seu próprio login. [Instruções completas, privacidade e limitações da versão Windows](windows/README.md).
+
+A instalação não altera idioma, teclado nem ícones de outros aplicativos. O perfil privado fica em `%LOCALAPPDATA%\CodexTokenMonitor\profile`, fora desta árvore pública; não compartilhe nem versione essa pasta.
+
+## Linux / Fedora KDE
 
 **Este projeto não inclui credenciais, contas ou tokens do autor. Cada usuário deve configurar suas próprias credenciais.**
 
@@ -11,7 +27,7 @@ Widget para KDE Plasma que exibe informações de uso/limites do Codex diretamen
 - Limites disponíveis das janelas de uso e da semana, com datas de renovação locais.
 - Tokens acumulados e último dia informado, quando disponíveis no Codex CLI.
 - Representação compacta para painel e detalhada para desktop.
-- Atualização dos dados a cada 30 segundos e botão de atualização manual.
+- Atualização dos dados a cada 30 segundos no Linux e 15 segundos após cada consulta no Windows, com atualização manual.
 - Login oficial do ChatGPT pelo navegador, sessão exclusiva do widget e remoção de credenciais.
 - Sem tentativas de autenticação quando nenhuma conta foi configurada.
 
@@ -109,4 +125,4 @@ Antes de publicar, execute o [roteiro de testes manuais](docs/TESTING.md), revis
 
 ## Contribuição
 
-Propostas de correção e melhoria são bem-vindas. Inclua versão do Plasma, distribuição, versão do Codex e passos mínimos de reprodução. Use somente dados sintéticos; revise patches e screenshots para remover informações pessoais. Mudanças no fluxo de autenticação devem preservar isolamento, erros sanitizados e logout. O repositório indicado na metadata é um endereço futuro; esta preparação local ainda não foi publicada.
+Propostas de correção e melhoria são bem-vindas. Inclua versão do Plasma, distribuição, versão do Codex e passos mínimos de reprodução. Use somente dados sintéticos; revise patches e screenshots para remover informações pessoais. Mudanças no fluxo de autenticação devem preservar isolamento, erros sanitizados e logout. O código público está no repositório indicado na metadata. Cada instalação usa a conta e as credenciais do próprio usuário.

@@ -52,3 +52,14 @@ service.lock
 heartbeat
 refresh
 panel-before-*.ini
+# Windows private profile, preferences and local diagnostics
+profile/
+appearance.json
+appearance.json.*
+widget-settings.json
+widget-settings.json.*
+language-bar-before.json
+windows/check-login.cjs
+windows/check-rpc.cjs
+windows/between-bluetooth-network.json
+windows/between-bluetooth-network.md
